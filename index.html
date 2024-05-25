@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maruti Suzuki Alto 800</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Alto 800</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#showrooms">Showrooms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Maruti Suzuki Alto 800</h1>
+            <p>Trusted by over 2 million users worldwide</p>
+            <a href="#about" class="btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Maruti Suzuki Alto 800 has been a household name for decades, known for its reliability, affordability, and ease of maintenance. Our mission is to continue creating cars that bring families together, offering comfort, safety, and joy in every journey.</p>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Why Choose Alto 800?</h2><br>
+        <div class="feature">
+            <i class="fas fa-users"></i>
+            <h3>Creating Families</h3>
+            <p>Comfortable and spacious for small families.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-couch"></i>
+            <h3>Comfort</h3>
+            <p>Designed with comfort in mind for long drives.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-award"></i>
+            <h3>Legacy</h3>
+            <p>Building a legacy of trust and reliability.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-industry"></i>
+            <h3>Big Brands Choose Us</h3>
+            <p>Preferred by leading brands for quality and efficiency.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="https://media.discordapp.net/attachments/937236626264969266/1242398625997393961/Maruti-Suzuki-Alto-Interior-154868.jpg?ex=664db163&is=664c5fe3&hm=f505376163f4edb85a961fb90754b895dc53fbd721e7db170070ac58bf254cc7&" alt="Car Image 1">
+            <img src="https://media.discordapp.net/attachments/937236626264969266/1242398625770770483/infotainment-system-main-menu-183.jpg?ex=664db163&is=664c5fe3&hm=2078d104d418974f5546824a2c289e315bc752ab64b8db95bd8674b3c28d1822&" alt="Car Image 2">
+            <img src="https://media.discordapp.net/attachments/937236626264969266/1242398388566097981/front-view-118.jpg?ex=664db12a&is=664c5faa&hm=901ba534fb6f84c61a41606a5f41d4a8639db1a626957026dc8a5cc18b460026&" alt="Car Image 3">
+            <img src="https://media.discordapp.net/attachments/937236626264969266/1242398388301987951/new-alto-800-front.jpg?ex=664db12a&is=664c5faa&hm=d6925a5e1831df7c1a6d401a3458105675e458e1a54afafb5b464537b8bc1a52&" alt="Car Image 4">
+        </div>
+    </section>
+
+    <section id="video" class="video">
+        <h2>Watch the Trailer</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://youtu.be/ZLzjaS84mpg?si=OI0XlAoWXXLCKRPs" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="showrooms" class="showrooms">
+        <h2>Showrooms Across India</h2>
+        <div id="map"></div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Maruti Suzuki Alto 800. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
